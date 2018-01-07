@@ -45,25 +45,17 @@
       }
     ],
     "no-arg": true,
-    "no-bitwise": true,
-    "no-console": [
-      true,
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
-    ],
+    "no-console": [true],
     "no-construct": true,
-    "no-debugger": true,
     "no-duplicate-super": true,
-    "no-empty": false,
     "no-empty-interface": true,
     "no-eval": true,
     "no-inferrable-types": [
       true,
       "ignore-params"
     ],
+    "no-var-keyword": true,
+    "no-implicit-dependencies": true,
     "no-misused-new": true,
     "no-non-null-assertion": true,
     "no-shadowed-variable": true,
@@ -74,7 +66,6 @@
     "no-unnecessary-initializer": true,
     "no-unused-expression": true,
     "no-use-before-declare": true,
-    "no-var-keyword": true,
     "object-literal-sort-keys": false,
     "one-line": [
       true,
