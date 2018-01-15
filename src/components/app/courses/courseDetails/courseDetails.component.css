@@ -1,0 +1,17 @@
+.course-container {
+    margin: 20px 0;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.course-container .course-info-item {
+    display: inline-block;
+}
+
+.course-container .course-title {
+    font-size: 21px;
+}
+
+.course-container .course-button {
+    margin-bottom: 20px;
+}

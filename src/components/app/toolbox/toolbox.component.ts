@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 
 export class ToolboxComponent {
   searchQuery: string = "";
+
+  onClick(query: string): void {
+    console.log(query);
+  }
 }

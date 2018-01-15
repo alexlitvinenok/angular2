@@ -1,0 +1,13 @@
+<div class="course-container container">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="course-info-item course-title">Video course {{course.id}} {{getFormattedDuration(course.duration)}}</div>
+            <div class="course-info-item course-title  pull-right">{{course.creationDate | date:'MMM d, yyyy'}}</div>
+            <p class="lead">{{course.description}}</p>
+        </div>
+        <div class="col-md-2">
+            <div><button class="btn btn-default btn-block course-button">Edit course</button></div>
+            <div><button class="btn btn-default btn-block" (click)="delete(course.id)">Delete</button></div>
+        </div>
+    </div>
+</div>

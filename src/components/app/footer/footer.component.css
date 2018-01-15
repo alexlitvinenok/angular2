@@ -1,0 +1,10 @@
+.footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer .copyright {
+    color: #b62b2e;
+}
