@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.header .breadcrumb-container {
+    flex-grow: 1;
+}
+
+.header .breadcrumb-container a {
+    padding: 20px 5px;
+    color: #b62b2e;
+}

@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
-import { CourseDetailsComponent } from './courseDetails/courseDetails.component';
+import { CourseDetailsComponent } from './course/courseDetails/courseDetails.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './header/login/login.component';
+import { LogoComponent } from './header/logo/logo.component';
+import { ToolboxComponent } from './toolbox/toolbox.component';
 
 
 
@@ -18,10 +20,13 @@ import { LoginComponent } from './login/login.component';
     CourseDetailsComponent,
     FooterComponent,
     HeaderComponent,
-    LoginComponent
+    LoginComponent,
+    LogoComponent,
+    ToolboxComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

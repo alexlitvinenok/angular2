@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Course } from './course';
+import { COURSES_DATA } from "./cousesData";
 
 @Component({
   selector: 'course',
@@ -8,4 +9,5 @@ import { Course } from './course';
 })
 
 export class CourseComponent { 
+  courses = COURSES_DATA;
 }
